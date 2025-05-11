@@ -1,5 +1,6 @@
 import React from 'react';
 import { Leaf, Instagram, Facebook, Twitter } from 'lucide-react';
+import logo from '/public/LOGO1.jpg';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -17,7 +18,11 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center mb-4">
-              <Leaf className="h-8 w-8 text-green-400 mr-2" />
+            <img 
+              src={logo} // Update this path to your logo's location
+              alt="PB Farms Logo" 
+              className="h-8 w-8 mr-2"
+            />
               <span className="text-xl font-bold text-white">
                 <span className="text-green-300">PB</span> Farms
               </span>
