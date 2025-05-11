@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
   return (
     <section 
       id="home"
-      className="relative min-h-screen flex items-center justify-center pt-16"
+      className="relative min-h-screen flex items-center justify-center mt-14"
       style={{
         backgroundImage: 'url("https://images.pexels.com/photos/2165688/pexels-photo-2165688.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")',
         backgroundSize: 'cover',

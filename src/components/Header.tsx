@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Leaf } from 'lucide-react';
+import { Menu, X } from 'lucide-react'; // Removed Leaf import
+import logo from '/public/LOGO1.jpg';
+
 
 interface NavLink {
   label: string;
@@ -52,7 +54,11 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <Leaf className="h-8 w-8 text-green-600 mr-2" />
+            <img 
+              src={logo} // Update this path to your logo's location
+              alt="PB Farms Logo" 
+              className="h-8 w-8 mr-2"
+            />
             <a 
               href="#home" 
               className="text-xl md:text-2xl font-bold text-green-800"
@@ -61,7 +67,7 @@ const Header: React.FC = () => {
                 scrollToSection('#home');
               }}
             >
-              <span className="text-green-700">PB</span> Farms
+              <span className="text-Red-700">PB</span> Farms
             </a>
           </div>
 

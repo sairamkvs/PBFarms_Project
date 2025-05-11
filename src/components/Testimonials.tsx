@@ -15,28 +15,28 @@ const Testimonials: React.FC = () => {
   const testimonials: Testimonial[] = [
     {
       id: 1,
-      name: "Sarah Johnson",
-      role: "Restaurant Owner",
+      name: "Srinivas",
+      role: "Software Employee",
       content: "The quality of produce from PB Farms is exceptional. Our customers can taste the difference in our farm-to-table dishes, and we're proud to support sustainable farming.",
-      avatar: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      rating: 5
-    },
-    {
-      id: 2,
-      name: "Mark Thompson",
-      role: "Home Cook",
-      content: "I've been getting weekly deliveries from PB Farms for over a year, and I'm consistently impressed by the freshness and flavor of their organic vegetables.",
       avatar: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       rating: 5
     },
-    {
-      id: 3,
-      name: "Emily Rodriguez",
-      role: "Nutritionist",
-      content: "I recommend PB Farms to all my clients. Their commitment to organic growing practices means their produce is not only delicious but also packed with nutrients.",
-      avatar: "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      rating: 4
-    }
+    // {
+    //   id: 2,
+    //   name: "Mark Thompson",
+    //   role: "Home Cook",
+    //   content: "I've been getting weekly deliveries from PB Farms for over a year, and I'm consistently impressed by the freshness and flavor of their organic vegetables.",
+    //   avatar: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    //   rating: 5
+    // },
+    // {
+    //   id: 3,
+    //   name: "Emily Rodriguez",
+    //   role: "Nutritionist",
+    //   content: "I recommend PB Farms to all my clients. Their commitment to organic growing practices means their produce is not only delicious but also packed with nutrients.",
+    //   avatar: "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    //   rating: 4
+    // }
   ];
 
   const renderStars = (rating: number) => {
@@ -56,7 +56,7 @@ const Testimonials: React.FC = () => {
           subtitle="What Our Customers Say"
         />
         
-        <div className="grid md:grid-cols-3 gap-8 mt-12">
+        <div className="grid md:grid-cols-1 gap-8 mt-12">
           {testimonials.map((testimonial) => (
             <div 
               key={testimonial.id} 
