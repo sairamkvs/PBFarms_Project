@@ -80,7 +80,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-800 mb-1">Location</h4>
-                  <p className="text-gray-600">Prakruti Bhagyam Farms, Shamirpet, Hyderabad, Telangana, India</p>
+                  <p className="text-gray-600">Prakruti Bhagyam Farms Telangana, India</p> 
                 </div>
               </div>
               
@@ -100,7 +100,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-800 mb-1">Email</h4>
-                  <p className="text-gray-600">info@pbfarms.in</p>
+                  <p className="text-gray-600">@prakruthibhagyam@gmail.com</p>
                 </div>
               </div>
             </div>

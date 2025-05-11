@@ -138,14 +138,13 @@ const Footer: React.FC = () => {
             <address className="not-italic">
               <p className="text-green-200 mb-2">
                 Prakruti Bhagyam Farms<br />
-                Shamirpet, Hyderabad<br />
-                Telangana, India
+                Telangana, India<br />
               </p>
               <p className="text-green-200 mb-2">
-                <span className="text-white">Phone:</span> +91 98765 43210
+                <span className="text-white">Phone:</span> +91 91779 84134
               </p>
               <p className="text-green-200">
-                <span className="text-white">Email:</span> info@pbfarms.in
+                <span className="text-white">Email:</span> prakruthibhagyam@gmail.com
               </p>
             </address>
           </div>

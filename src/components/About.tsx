@@ -1,6 +1,7 @@
 import React from 'react';
 import { Leaf, Truck, Heart } from 'lucide-react';
 import SectionTitle from './ui/SectionTitle';
+import logo from '/public/LOGO1.jpg';
 
 const AboutCard: React.FC<{
   icon: React.ReactNode;
@@ -63,7 +64,7 @@ const About: React.FC = () => {
           
           <div className="relative">
             <img 
-              src="https://images.pexels.com/photos/2286776/pexels-photo-2286776.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" 
+              src={logo}//"https://images.pexels.com/photos/2286776/pexels-photo-2286776.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" 
               alt="Organic farm fields" 
               className="rounded-lg shadow-lg"
             />
