@@ -149,7 +149,7 @@ const Footer: React.FC = () => {
                 <span className="text-white">Phone:</span> +91 91779 84134
               </p>
               <p className="text-green-200">
-                <span className="text-white">Email:</span> prakruthibhagyam@gmail.com
+                <span className="text-white">Email:</span>prakruthibhagyam@gmail.com
               </p>
             </address>
           </div>
