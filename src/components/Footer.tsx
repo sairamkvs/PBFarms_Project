@@ -146,7 +146,7 @@ const Footer: React.FC = () => {
                 Telangana, India<br />
               </p>
               <p className="text-green-200 mb-2">
-                <span className="text-white">Phone:</span> +91 91779 84134
+                <span className="text-white">Phone:</span> +91 9573601450
               </p>
               <p className="text-green-200">
                 <span className="text-white">Email:</span>prakruthibhagyam@gmail.com
